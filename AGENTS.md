@@ -19,6 +19,9 @@ keep run scripts focused on parameters and package calls.
 - Correct or extend the canonical implementation instead of adding `new`,
   `fixed`, `v2`, or `final` variants. Preserve an old entry point only when a
   recorded result or restart path depends on it.
+- Keep active batch files under `scripts/slurm/` and submission wrappers under
+  `scripts/submit/`. Keep retained historical entry points under
+  `scripts/legacy/`; do not add new launch scripts at the repository root.
 
 ## Physical and numerical conventions
 
