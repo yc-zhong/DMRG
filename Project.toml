@@ -1,0 +1,18 @@
+[deps]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+MKL = "33e6dc65-8f57-5167-99aa-e5a354878fb2"
+MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+TensorKit = "07d1fe3e-3e46-537d-9eac-e9e13d0d4cec"
+TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
+
+[compat]
+FileIO = "=1.19.0"
+JLD2 = "=0.6.4"
+MKL = "=0.9.1"
+MPI = "=0.20.24"
+ProgressMeter = "=1.11.0"
+TensorKit = "=0.14.11"
+TensorOperations = "=5.6.1"
+julia = "1.11, 1.12"
