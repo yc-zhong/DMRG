@@ -44,3 +44,13 @@ keep run scripts focused on parameters and package calls.
   policy, cutoff, Krylov settings, checkpoint, and job ID with reported results.
 - Cluster work uses `/public4/home/sc56578/zyc/hubbard_flux` through the `bscc`
   SSH alias.
+
+## Version control
+
+- This directory is an independent Git repository with `origin` at
+  `git@github.com:yc-zhong/DMRG.git`.
+- Commit coherent, reviewed changes to core code, tests, launchers, and concise
+  documentation. Keep generated states, checkpoints, tensor binaries, raw run
+  output, scheduler logs, scratch data, and credentials out of Git.
+- Before pushing, inspect the diff and repository status. Do not rewrite remote
+  history or force-push unless the user explicitly requests it.
